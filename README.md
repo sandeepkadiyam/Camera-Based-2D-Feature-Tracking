@@ -1,4 +1,4 @@
-## Mid-Term Report
+## STRUCTURE OF THE PROJECT
 
 ### MP.1 Data Buffer Optimization
 I implemented a ring buffer in the project. This ring buffer pushes new elements into the buffer using the .push_back method. Once the buffer is filled with elements, the first element is erased using the .erase method to accept a new element.
