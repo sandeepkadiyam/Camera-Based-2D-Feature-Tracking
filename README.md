@@ -13,10 +13,10 @@ I iterated through all the detected keypoints and assigned the keypoints that be
 I implemented a function that accepts the name of the descriptor type as an argument. This function uses the if loop to compare the descriptor type and then creates the respective descriptor instance. The compute method of this instance extracts the descriptor information of the keypoints.
 
 ### MP.5 Descriptor Matching
-I implemented a function that accepts the name of the matcher type adn the name of the selector type as arguments. This function uses two seperate if loops to compare the matcher type and the selector type and then creates the respective instances.
+I implemented a function that accepts the name of the matcher type and the name of the selector type as arguments. This function uses two seperate if loops to compare the matcher type and the selector type and then creates the respective instances.
 
 ### MP.6 Descriptor Distance Ratio
-I set the selectorType variable to SEL_KNN to achieve this task.
+I set the selectorType variable to SEL_KNN to achieve two best distance ratios.
 
 ### MP.7 Performance Evaluation 1
 The number of keypoints on the preceding vehicle for all the 10 images is noted using all the detectors. The spreadsheet can be found [here](https://docs.google.com/spreadsheets/d/15qEtsSWv-XniI4dRZ2-61Og1NYlPFjXcrW8nvQn6bCE/edit?usp=sharing).
